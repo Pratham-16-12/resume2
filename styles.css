@@ -1,0 +1,110 @@
+html {
+  font-size: 6.25%;
+}
+body {
+  font-size: 20rem;
+  font-family: "calibri";
+}
+.col {
+  background-color: #e4f9f5;
+  margin: -8rem;
+}
+.box3 {
+  height: 100vh;
+  background-color: #e4f9f5;
+  margin: -8rem;
+  text-align: center;
+  color: #66bfbf;
+  position: relative;
+  padding-top: 100rem;
+  max-width: 776px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 90rem;
+  margin-top: 0rem;
+  position: relative;
+}
+.ab2 {
+  position: absolute;
+  right: 0rem;
+  top: 50rem;
+}
+.ab {
+  position: absolute;
+  left: 0rem;
+  top: 302rem;
+}
+.middle-container {
+  font-size: 30rem;
+  text-align: center;
+  position: relative;
+  top: 12rem;
+  border-radius: 75%;
+}
+.middle-container h3 {
+  color: #11999e;
+}
+.bottom-container {
+  font-size: 30px;
+  margin: -8rem 0 -8rem 0;
+  background-color: #e4f9f5;
+  text-align: center;
+  position: relative;
+  top: 16rem;
+  color: #11999e;
+}
+.contact-me {
+  background-color: #e4f9f5;
+  margin: -8rem 0 -8rem 0;
+  color: #11999e;
+}
+img {
+  max-width: 100%;
+}
+.mountain {
+  width: 598px;
+}
+.btn {
+  text-decoration: none;
+  font-family: "calibri";
+  color: #11999e;
+}
+.footer-link {
+  font-family: "calibri";
+  text-decoration: none;
+  color: #11999e;
+}
+
+@media only screen and (max-width: 414px) {
+  html {
+    font-size: 4.65%;
+  }
+  .box3 h1 {
+    font-size: 55rem;
+  }
+  .box3 h2 {
+    font-size: 30rem;
+  }
+  body {
+    font-family: "calibri";
+  }
+  .col {
+    background-color: #e4f9f5;
+    margin: -10.64rem;
+  }
+  .mountain {
+    position: relative;
+    bottom: -160px;
+  }
+  .ab2 {
+    top: 25rem;
+  }
+}
+@media only screen and (min-height: 700px) {
+  .mountain {
+    position: relative;
+    bottom: -240px;
+  }
+}
