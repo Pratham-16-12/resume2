@@ -102,9 +102,3 @@ img {
     top: 25rem;
   }
 }
-@media only screen and (min-height: 700px) {
-  .mountain {
-    position: relative;
-    bottom: -240px;
-  }
-}
