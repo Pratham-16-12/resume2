@@ -1,110 +1,131 @@
-html {
-  font-size: 6.25%;
-}
-body {
-  font-size: 20rem;
-  font-family: "calibri";
-}
-.col {
-  background-color: #e4f9f5;
-  margin: -8rem;
-}
-.box3 {
-  height: 100vh;
-  background-color: #e4f9f5;
-  margin: -8rem;
-  text-align: center;
-  color: #66bfbf;
-  position: relative;
-  padding-top: 100rem;
-  max-width: 776px;
-  margin-left: auto;
-  margin-right: auto;
-}
-h1 {
-  font-size: 90rem;
-  margin-top: 0rem;
-  position: relative;
-}
-.ab2 {
-  position: absolute;
-  right: 0rem;
-  top: 50rem;
-}
-.ab {
-  position: absolute;
-  left: 0rem;
-  top: 302rem;
-}
-.middle-container {
-  font-size: 30rem;
-  text-align: center;
-  position: relative;
-  top: 12rem;
-  border-radius: 75%;
-}
-.middle-container h3 {
-  color: #11999e;
-}
-.bottom-container {
-  font-size: 30px;
-  margin: -8rem 0 -8rem 0;
-  background-color: #e4f9f5;
-  text-align: center;
-  position: relative;
-  top: 16rem;
-  color: #11999e;
-}
-.contact-me {
-  background-color: #e4f9f5;
-  margin: -8rem 0 -8rem 0;
-  color: #11999e;
-}
-img {
-  max-width: 100%;
-}
-.mountain {
-  width: 598px;
-}
-.btn {
-  text-decoration: none;
-  font-family: "calibri";
-  color: #11999e;
-}
-.footer-link {
-  font-family: "calibri";
-  text-decoration: none;
-  color: #11999e;
-}
-
-@media only screen and (max-width: 414px) {
-  html {
-    font-size: 4.65%;
-  }
-  .box3 h1 {
-    font-size: 55rem;
-  }
-  .box3 h2 {
-    font-size: 30rem;
-  }
-  body {
-    font-family: "calibri";
-  }
-  .col {
-    background-color: #e4f9f5;
-    margin: -10.64rem;
-  }
-  .mountain {
-    position: relative;
-    bottom: -160px;
-  }
-  .ab2 {
-    top: 25rem;
-  }
-}
-@media only screen and (max-width: 414px) and (min-height: 700px) {
-  .mountain {
-    position: relative;
-    bottom: -240px;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratham</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class="col">
+            <div class="box3">
+                <img
+                    class="ab2"
+                    src="cloud.png"
+                    alt="Cloud image"
+                    id="C1"
+                >
+                <h1>I am Pratham</h1>
+                <h2>A Full Stack Web Developer</h2>
+                <img
+                    class="ab"
+                    src="cloud.png"
+                    alt="Cloud image"
+                    id="C2"
+                >
+                <img class="mountain" src="mountain.png" alt="mountain image">
+            </div>
+        </div>
+        <hr>
+        <div class="middle-container">
+            <div class="profile">
+                <img src="20220730_213058.png" alt="Pratham">
+                <h2 style=" color: #11999e;">Hello.</h2>
+                <p>I'm a web full stack developer / programmer based in Delhi, India. I have a passion for web development and love to create websites for desktops and mobile devices.</p>
+            </div>
+            <hr>
+            <h2 style=" color: #11999e;">My Skills</h2>
+            <hr class="t1">
+            <div class="skills">
+                <hr class="t2">
+                <div class="skill-row">
+                    <img
+                        class="middle-container"
+                        src="computer.png"
+                        width="136"
+                        height="136"
+                        alt=""
+                    >
+                    <h3>
+                        Full Stack
+                        <br>
+                        Web Development
+                        <br>
+                        MERN Stack
+                    </h3>
+                </div>
+                <hr class="t3">
+                <div class="skill-row">
+                    <img
+                        class="middle-container"
+                        src="C.png"
+                        alt=""
+                        width="136"
+                        height="136"
+                    >
+                    <h3>
+                        C
+                        <br>
+                        Language
+                    </h3>
+                </div>
+                <hr class="t3">
+                <div class="skill-row">
+                    <img
+                        class="middle-container"
+                        src="C++.png"
+                        alt=""
+                        width="136"
+                        height="136"
+                    >
+                    <h3>
+                        C++
+                        <br>
+                        Language
+                    </h3>
+                </div>
+                <hr class="t3">
+                <div class="skill-row">
+                    <img
+                        class="middle-container"
+                        src="data.png"
+                        alt=""
+                        width="136"
+                        height="136"
+                    >
+                    <h3>
+                        Data
+                        <br>
+                        Structures
+                    </h3>
+                </div>
+                <hr class="t3">
+                <div class="skill-row">
+                    <img
+                        class="middle-container"
+                        src="download.png"
+                        alt=""
+                        width="136"
+                        height="136"
+                    >
+                    <h3>Algorithms</h3>
+                </div>
+                <hr class="t4">
+            </div>
+            <hr class="t5">
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <a class="btn" href="mailto:parthambhardwaj1@email.com">CONTACT ME</a>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/pratham-bhardwaj-889aa4173/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/Pratham21306806">Twitter</a>
+            <a class="footer-link" href="https://pratham-16.github.io/resume3/index.html">Website</a>
+            <p>© Pratham.</p>
+        </div>
+    </body>
+</html>
